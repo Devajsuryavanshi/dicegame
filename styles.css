@@ -1,0 +1,70 @@
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+ .btn {
+   text-align: center;
+ }
+
+ button{
+   border-radius: 8px;
+   text-decoration: none;
+   color: #FFFF;
+   -webkit-border-radius: 8;
+   -moz-border-radius: 8;
+   border-radius: 8px;
+   font-family: 'Indie Flower', cursive;
+   font-size: 3rem;
+   width: auto;
+   height: auto;
+   font-size: 20px;
+   padding: 10px 40px;
+   text-shadow: 0 1px 0 #ffff;
+   background-color: #4ECCA3;
+ }
+
+.container {
+   width: 70%;
+   margin: auto;
+   text-align: center;
+}
+
+@media(max-width: 600px) {
+  h1 {
+    margin: 15px;
+    font-size: 4rem;
+  }
+}
